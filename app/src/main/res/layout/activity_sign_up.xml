@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main1"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+         android:gravity="center"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+    tools:context=".SignUpActivity">
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="userName"
+           android:id="@+id/User1"
+           android:layout_below="@id/emailText1"
+           />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailText1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_below="@+id/User1"
+            android:hint="Passwaord"
+            android:inputType="textEmailAddress"
+            android:id="@+id/passWord1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_below="@id/SignUp1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:id="@+id/SignIn1"
+            android:text="Sign in ExistingUser"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_below="@id/passWord1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:id="@+id/SignUp1"
+            android:text="SignUp"/>
+    </RelativeLayout>
+

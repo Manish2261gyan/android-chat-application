@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "431337785182",
+    "project_id": "mchat-fd83a",
+    "storage_bucket": "mchat-fd83a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431337785182:android:fba4b59455e61d365531cf",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv6eybQbMX_m7_bIeLB6lPWHH6DwTkD_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
